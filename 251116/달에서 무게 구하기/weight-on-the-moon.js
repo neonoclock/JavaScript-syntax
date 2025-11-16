@@ -1,6 +1,5 @@
-let h = 13;
-let a = 0.165;
-let b = a.toFixed(6)
-let c = h * b ;
+let weight = 13;
+let ratio = 0.165;
+let result = weight * ratio;
 
-console.log(`${h} * ${b} = ${c.toFixed(6)}`)
+console.log(`${weight} * ${ratio.toFixed(6)} = ${result.toFixed(6)}`);
