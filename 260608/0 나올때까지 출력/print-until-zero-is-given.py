@@ -1,0 +1,10 @@
+import sys
+input = sys.stdin.readline
+
+while True:
+    N = int(input())
+
+    if N == 0:
+        break
+
+    print(N)
